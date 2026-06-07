@@ -9,11 +9,11 @@ from tqdm import tqdm
 # 1. 基础配置
 # ==========================================
 MODEL_PATH = "./byt5_grapheme_phoneme_reconstructor/best_joint_model"
-DEV_CSV = "actual_validation_set.csv"  # 请确保您的Dev集保存在此路径
+DEV_CSV = "actual_validation_set.csv"  # 确保路径一致
 OUTPUT_CSV = "joint_dev_evaluation_results.csv"
 
 # ==========================================
-# 2. 莱文斯坦编辑距离计算器
+# 2. 莱文斯坦编辑距离计算器 (已修正缩进 Bug)
 # ==========================================
 def edit_distance(s1, s2):
     if len(s1) < len(s2):
@@ -30,10 +30,10 @@ def edit_distance(s1, s2):
             substitutions = previous_row[j] + (c1 != c2)
             current_row.append(min(insertions, deletions, substitutions))
         previous_row = current_row
-        return previous_row[-1]
+    return previous_row[-1] # ✅ 修正：已经移出外层 for 循环！
 
 # ==========================================
-# 3. 现代语言实时 G2P 转换器 (带缓存机制以加速运行)
+# 3. 现代语言实时 G2P 转换器
 # ==========================================
 ipa_cache = {}
 def get_single_ipa(word, lang):
@@ -60,7 +60,7 @@ def get_single_ipa(word, lang):
         return "-"
 
 # ==========================================
-# 4. 古英语历史音标生成器 (用于对比语音编辑距离)
+# 4. 古英语历史音标生成器
 # ==========================================
 def oe_to_ipa(word):
     if pd.isna(word) or word == "-":
@@ -99,13 +99,15 @@ results = []
 perfect_word_matches = 0
 total_word_edit_dist = 0
 
+# 统计各编辑距离区间的分布
+dist_counts = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, "4+": 0}
+
 for idx, row in tqdm(df_dev.iterrows(), total=len(df_dev)):
     raw_input = str(row["input_text"])
     target_word = str(row["target_text"]).strip()
     
     # 5.1 解析并构建音形联合输入格式
     parts = []
-    # 提取输入中的各个语言和单词
     matches = re.findall(r"(\w+):\s*([^\|]+)", raw_input)
     for lang_name, word_val in matches:
         word_val = word_val.strip()
@@ -123,7 +125,7 @@ for idx, row in tqdm(df_dev.iterrows(), total=len(df_dev)):
         outputs = model.generate(**inputs, max_length=64, num_beams=5, early_stopping=True)
     pred_joint = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
     
-    # 5.3 拆分模型预测的拼写和音标 (如: "frēo [/freːo/]" -> "frēo" 和 "/freːo/")
+    # 5.3 拆分模型预测的拼写和音标
     pred_word, pred_ipa = pred_joint, "-"
     if " [" in pred_joint:
         split_parts = pred_joint.split(" [")
@@ -141,6 +143,12 @@ for idx, row in tqdm(df_dev.iterrows(), total=len(df_dev)):
     if word_dist == 0:
         perfect_word_matches += 1
         
+    # 区间统计
+    if word_dist <= 4:
+        dist_counts[word_dist] += 1
+    else:
+        dist_counts["4+"] += 1
+        
     results.append({
         "original_input": raw_input,
         "joint_input": joint_input,
@@ -152,21 +160,33 @@ for idx, row in tqdm(df_dev.iterrows(), total=len(df_dev)):
     })
 
 # ==========================================
-# 6. 生成并打印评估报告
+# 6. 生成并打印评估报告 (对应 Ab Antiquo 论文 Table 1 格式)
 # ==========================================
 total_samples = len(df_dev)
 accuracy = (perfect_word_matches / total_samples) * 100
 avg_word_dist = total_word_edit_dist / total_samples
 
+acc_0 = accuracy
+acc_1 = (sum(dist_counts[i] for i in range(2)) / total_samples) * 100
+acc_2 = (sum(dist_counts[i] for i in range(3)) / total_samples) * 100
+acc_3 = (sum(dist_counts[i] for i in range(4)) / total_samples) * 100
+acc_4 = (sum(dist_counts[i] for i in range(5)) / total_samples) * 100
+
 print("\n" + "="*50)
 print("             音形联合模型 Dev 集评估报告")
 print("="*50)
 print(f"评估样本总数: {total_samples}")
-print(f"拼写完全正确率 (Word Accuracy): {accuracy:.2f}%")
 print(f"平均拼写编辑距离 (Avg Word Edit Distance): {avg_word_dist:.4f}")
+print("-"*50)
+print("编辑距离分布累加率 (对应论文 Table 1 格式):")
+print(f"  距离 = 0 (完全完美重构): {acc_0:.2f}%")
+print(f"  距离 <= 1             : {acc_1:.2f}%")
+print(f"  距离 <= 2             : {acc_2:.2f}%")
+print(f"  距离 <= 3             : {acc_3:.2f}%")
+print(f"  距离 <= 4             : {acc_4:.2f}%")
 print("="*50)
 
 # 保存详细对齐结果
 df_out = pd.DataFrame(results)
 df_out.to_csv(OUTPUT_CSV, index=False, encoding="utf-8")
-print(f"评估完成！详细条目已保存至：'{OUTPUT_CSV}'")
+print(f"评估完成！详细对齐和对比数据已保存至：'{OUTPUT_CSV}'")
