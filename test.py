@@ -6,7 +6,7 @@ import sys
 # ==========================================
 # 1. 环境与联合模型加载
 # ==========================================
-MODEL_PATH = "./byt5_grapheme_phoneme_reconstructor/best_joint_model"
+MODEL_PATH = "./byt5_grapheme_phoneme_reconstructor/checkpoint-1100"
 
 print("正在加载【音形联合重构模型】...")
 try:
