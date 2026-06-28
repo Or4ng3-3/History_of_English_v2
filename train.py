@@ -79,7 +79,7 @@ training_args = Seq2SeqTrainingArguments(
     load_best_model_at_end=True,   # 训练结束自动加载历史最佳模型
     metric_for_best_model="loss",   # 评估最佳模型的指标为 Loss
     
-    num_train_epochs=12,            # 联合模型信息量大，12 轮足够
+    num_train_epochs=7,            # 联合模型信息量大，12 轮足够
     predict_with_generate=True,
     fp16=False,                     # 使用 FP32 确保 ByT5 在 T4 上绝对稳定
     logging_steps=50,

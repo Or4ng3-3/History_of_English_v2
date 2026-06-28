@@ -1,0 +1,425 @@
+input_text,ground_truth_target,predicted_target,edit_distance,normalized_edit_distance
+German: Ruf | Dutch: roep | Swedish: rop,hrōp,rōp,1,0.25
+English: way | German: Weg | Dutch: weg | Swedish: väg,weġ,weġ,0,0.0
+German: fasten | Dutch: vasten | Swedish: fasta,festia,fæstan,3,0.5
+English: lamb | German: Lamm | Dutch: lam | Swedish: lamm,lamb,lamb,0,0.0
+English: aread | German: erraten,ārǣdan,arǣdan,1,0.1667
+English: warm | German: warm | Dutch: warm | Swedish: varm,wearm,wearm,0,0.0
+English: braai | German: braten | Dutch: braden,brǣdan,brǣdan,0,0.0
+English: hunger | Dutch: hongeren,hyngran,hungrian,2,0.2857
+English: bairnless | Swedish: barnlös,bearnlēas,bearnlēas,0,0.0
+English: hate | German: Hass | Dutch: haat | Swedish: hat,hete,hat,2,0.5
+English: knock | Dutch: knokken | Swedish: knocka,cnocian,cnoccian,1,0.1429
+English: gleam | German: Gleim,glǣm,glǣm,0,0.0
+English: fiend | German: Feind | Dutch: vijand | Swedish: fiende,fē
+ond,fīend,2,0.4
+English: ey | German: Au | Dutch: Ooij | Swedish: ö,īeġ,ēa,3,1.0
+English: saw | German: sägen | Dutch: zagen | Swedish: saga,*sagian,sagan,2,0.2857
+English: vrou | German: Frau | Dutch: vrouwe | Swedish: fru,frōwe,frū,3,0.6
+English: mellow | German: mürbe | Dutch: murw | Swedish: mör,mearu,myrf,3,0.6
+English: wite | German: Weize | Dutch: wijte | Swedish: vite,wīte,w
+ t,1,0.25
+English: lie | German: Lug,lyġe,lēag,3,0.75
+English: dreng | Swedish: dräng,dreng,dreng,0,0.0
+English: owe | German: eigen | Dutch: eigen | Swedish: äga,āgan,āgan,0,0.0
+English: wer | German: Wer | Swedish: vär-,wer,were,1,0.3333
+English: can | German: können | Dutch: kunnen | Swedish: kunna,cunnan,cunnan,0,0.0
+English: hade | German: -heit | Dutch: -heid | Swedish: -het,hād,hǣ
+d,1,0.3333
+English: offlay | German: ablegen | Dutch: afleggen | Swedish: avlä
+gga,ofleċġan,afleggan,3,0.375
+German: ritzen | Dutch: ritsen,writian,ritsan,2,0.2857
+English: stark | German: stark | Dutch: sterk | Swedish: stark,starc,steorc,2,0.4
+English: wield | German: walten | Swedish: vålla,wealdan,weldan,1,0.1429
+English: even | German: ebnen | Dutch: effenen | Swedish: jämna,efnian,efnan,1,0.1667
+English: cloth | German: Kleid | Dutch: kleed | Swedish: kläde,clāþ
+,clēaþ,2,0.5
+English: pot | German: Pott | Dutch: pot | Swedish: pott,pott,pott,0,0.0
+English: mark | German: merken,mearcian,meorcan,2,0.25
+English: outen | German: außen | Dutch: uite- | Swedish: utan,ūtan,
+ tan,0,0.0
+English: bin | German: bin | Dutch: ben,bēom,bin,3,0.75
+English: hat | Swedish: hatt,hætt,hatt,1,0.25
+English: sting | Swedish: stinga,stingan,stingan,0,0.0
+English: theed | German: Diet | Dutch: diet | Swedish: tjod,þēod,þē
+od,0,0.0
+German: zeihen | Dutch: tijgen | Swedish: te,tēon,tīgan,3,0.75
+English: shell | German: Schellfisch | Dutch: schil,sċiell,sċiell,0,0.0
+English: spin | German: spinnen | Dutch: spinnen | Swedish: spinna,spinnan,spinnan,0,0.0
+English: sledge | Dutch: slegge | Swedish: slägga,sleċġ,slegga,3,0.6
+English: truce | German: Treue | Dutch: trouw | Swedish: tro,trēow,trūw,2,0.4
+English: help | German: helfen | Dutch: helpen | Swedish: hjälpa,helpan,helpan,0,0.0
+English: ladder | German: Leiter | Dutch: ladder,hlǣder,lador,3,0.5
+English: wharve | Swedish: varva,hwearfian,wearfan,2,0.2222
+English: shame | German: Scham | Dutch: schaam | Swedish: skam,sċamu,sċam,1,0.2
+English: Valhalla | German: Wal | Swedish: val,wæl,wealu,3,1.0
+English: wheat | German: Weizen | Dutch: weit | Swedish: vete,hwǣte,wāt,3,0.6
+English: fret | German: fressen | Dutch: vreten | Swedish: fräta,fretan,fretan,0,0.0
+English: most | German: meist | Dutch: meest | Swedish: mest,mǣst,m
+ st,1,0.25
+English: werd | Swedish: urd,wyrd,weord,2,0.5
+English: crib | German: Kribbe | Dutch: kribbe | Swedish: krubba,cribb,cribb,0,0.0
+English: len | Dutch: lenen | Swedish: läna,lǣnan,lenan,1,0.2
+English: clout | Dutch: kluit | Swedish: klut,clūt,clūt,0,0.0
+English: swell | German: schwellen | Dutch: zwellen | Swedish: svälla,swellan,swellan,0,0.0
+English: cinder | German: Sinter | Dutch: sinder | Swedish: sinder,sinder,sindre,2,0.3333
+English: gaum | German: Gaume | Dutch: goom,ġīeme,gām,4,0.8
+English: mark | German: Mark | Dutch: merk | Swedish: mark,marc,marc,0,0.0
+English: masker | Dutch: mals,*malscrian,meascor,7,0.7
+English: wound | Dutch: wonden,wundian,wundan,1,0.1429
+English: roo | German: Ruhe | Swedish: ro,rōw,rōh,1,0.3333
+English: sprout | German: sprießen | Dutch: spruiten | Swedish: spruta,*sprēotan,sprūtan,3,0.3333
+English: leave | German: Laube | Dutch: love,lēaf,lēaf,0,0.0
+English: hip | German: hüpfen | Dutch: huppen,*hyppan,hyppan,1,0.1429
+English: dale | German: Tal | Dutch: dal | Swedish: dal,dæl,dalu,2,0.6667
+English: cram | Swedish: krama,crammian,cramian,1,0.125
+English: wire | German: Wiere | Dutch: wier | Swedish: vajer,wīr,wī
+r,0,0.0
+English: sib | German: sippen,sibbian,sibban,1,0.1429
+English: spade | German: Spaten | Dutch: spade | Swedish: spade,spada,spada,0,0.0
+English: deaf | German: doof | Dutch: doof | Swedish: döv,dēaf,dēaf,0,0.0
+English: shathe | German: Schaden | Dutch: schade | Swedish: skada,scaþa,sċaþan,2,0.4
+English: seal | Dutch: zelen,sǣlan,sǣlan,0,0.0
+English: frosk | German: Frosch | Dutch: vors,frosc,frosc,0,0.0
+English: guesthouse | German: Gasthaus | Dutch: gasthuis | Swedish: gästhus,ġiesthūs,gūsthūs,3,0.375
+English: swear | German: schwören | Dutch: zweren | Swedish: svära,swerian,sweoran,2,0.2857
+English: long | German: lang | Dutch: lang | Swedish: lång,lang,lang,0,0.0
+Dutch: tal | Swedish: tal,tæl,talu,2,0.6667
+English: trow | German: trauen | Dutch: trouwen | Swedish: tro,trūwian,trēawan,3,0.4286
+English: tillow | German: Zelge | Dutch: telg,telga,tilg,2,0.4
+English: flow | Dutch: vloeien | Swedish: floa,flōwan,flōwan,0,0.0
+English: crave | Swedish: kräva,crafian,crefan,2,0.2857
+English: handless | German: handlos,*handlēas,handlian,3,0.3333
+German: Gau | Dutch: gouw,-ġē,ġēaw,3,1.0
+English: smit | German: schmitzen | Dutch: smetten | Swedish: smitta,smittian,smittan,1,0.125
+English: wain | German: Wagen | Dutch: wagen | Swedish: vagn,wæġn,wagian,4,1.0
+English: star-blind | German: starblind | Dutch: staarblind,stærblind,stearblind,2,0.2222
+English: earthen | German: irden | Dutch: aarden,eorþen,eorþan,1,0.1667
+English: main | Swedish: mägen,mæġen,mǣġan,2,0.4
+English: answer | Swedish: ansvar,andswaru,answeoru,3,0.375
+English: theft | German: Diebde | Dutch: diefte | Swedish: tjuft,þī
+efþ,þēoft,3,0.6
+English: mist | Dutch: mist | Swedish: mist,mist,mist,0,0.0
+English: write | German: reißen | Dutch: wrijten | Swedish: rita,wr
+ tan,wrītan,0,0.0
+German: dürr | Dutch: dor | Swedish: torr,þyrre,þyrr,1,0.2
+English: neath | German: nieden | Swedish: nedan,neoþan,nēaþan,2,0.3333
+English: flitch | Dutch: vlik,fliċċe,flīċ,3,0.5
+English: shoe | German: schuhen | Dutch: schoeien | Swedish: sko,sċ
+ ġan,sċōhan,1,0.1667
+English: loden | German: Lode | Dutch: loden,loþa,lodan,2,0.5
+English: thane | German: Degen | Dutch: degen | Swedish: tegn,þeġn,
+ eġn,0,0.0
+English: worm | German: Wurm | Dutch: worm | Swedish: orm,wyrm,wurm,1,0.25
+German: gestern | Dutch: gisteren,ġiestran,ġiestran,0,0.0
+English: yellow | German: gelb | Dutch: geel | Swedish: gull,ġeolu,
+ iell,3,0.6
+English: -en | Swedish: -na,-nian,-nan,1,0.2
+English: ridder | German: Reiter,hridder,rīþer,4,0.5714
+English: Dench | German: dänisch | Dutch: Deens | Swedish: dansk,Denisċ,denċe,4,0.6667
+English: nail | German: nageln | Dutch: nagelen | Swedish: nagla,næ
+ lan,naġlian,2,0.3333
+English: saw | German: Sage | Dutch: sage | Swedish: saga,saga,saga,0,0.0
+German: schwemmen | Dutch: zwemmen,*swemman,swemman,1,0.125
+English: bewend | German: bewenden | Dutch: bewenden,bewendan,bewendan,0,0.0
+English: oak | German: Eiche | Dutch: eik | Swedish: ek,āc,āc,0,0.0
+English: rick | German: rücken | Dutch: rukken | Swedish: rycka,*ry
+ ċan,ryccan,3,0.4286
+English: leap | Dutch: loop | Swedish: löp,lēap,lēap,0,0.0
+English: mease | German: Meise | Dutch: mees,*mǣse,mǣs,2,0.4
+English: grave | German: Grab | Dutch: graf | Swedish: grav,græf,graf,1,0.25
+English: nigh | German: nahen | Swedish: nå,*nēahian,nēahan,2,0.25
+English: lyem | German: lahm | Dutch: lam | Swedish: lam,lama,lēam,2,0.5
+English: lye | German: Lauge | Dutch: loog | Swedish: lög,lēaġ,lēag,1,0.25
+English: nether | Dutch: nederen | Swedish: förnedra,niþerian,neþrian,2,0.25
+English: gall | German: Galle | Dutch: gal | Swedish: galle,galla,galla,0,0.0
+English: name | German: Name | Dutch: naam | Swedish: namn,nama,nama,0,0.0
+English: tide | Dutch: tijen,tīdan,tīdan,0,0.0
+English: swine | German: Schwein | Dutch: zwijn | Swedish: svin,swī
+n,swīn,0,0.0
+English: big | Swedish: bygga,bȳan,biggan,3,0.75
+English: harrow | German: heeren | Swedish: härja,hergian,herian,1,0.1429
+English: idle | German: eitel | Dutch: ijdel | Swedish: idel,īdel,ī
+del,0,0.0
+English: fixen | German: Füchsin | Dutch: vossin,*fyxen,fixan,3,0.5
+English: bellow | Dutch: belgen,belgan,belgan,0,0.0
+English: whoost | German: Husten | Dutch: hoest | Swedish: hosta,hw
+ sta,hōstan,2,0.3333
+English: roan | German: Rogen | Dutch: roge | Swedish: rom,*hrogn,roga,3,0.5
+English: newer | German: neuer | Dutch: nieuwere | Swedish: nyare,n
+ wra,nēowere,4,0.8
+English: skin | German: Schinde | Dutch: schinde | Swedish: skinn,scinn,sċind,2,0.4
+English: weight | German: Wucht | Dutch: wicht | Swedish: vikt,wihte,wīht,2,0.4
+English: start | German: Sterz | Dutch: staart | Swedish: stjärt,steort,steort,0,0.0
+German: Unhold | Dutch: onhoud,unholda,unhold,1,0.1429
+English: summer | German: sommern | Dutch: zomeren,*sumerian,sumorian,2,0.2222
+English: sallow | German: Salweide | Swedish: sälg,sealh,sealg,1,0.2
+English: oker | German: Wucher | Dutch: woeker | Swedish: ocker,wōcor,wōcor,0,0.0
+English: comb | German: Kump | Dutch: kom,cumb,cumb,0,0.0
+English: east | German: Ost | Dutch: oost | Swedish: öster,ēast,ēast,0,0.0
+English: fowl | German: Vogel | Dutch: vogel | Swedish: fågel,fugol,fogel,2,0.4
+English: like | German: liken | Dutch: liken | Swedish: lika,līcian,lician,1,0.1667
+English: cleave | German: kleiben | Dutch: klijven | Swedish: kliva,clīfan,clīfan,0,0.0
+English: acre | German: Acker | Dutch: akker | Swedish: åker,æcer,acor,2,0.5
+English: mother | German: Mutter | Dutch: moeder | Swedish: moder,m
+ dor,mōþor,1,0.2
+English: toom | Swedish: tom,tōm,tōm,0,0.0
+English: of | German: ab | Dutch: af | Swedish: av,ob,af,2,1.0
+German: Gracht | Dutch: gracht,græft,græht,1,0.2
+English: fetter | German: Fesser | Dutch: veter | Swedish: fjätter,feter,feter,0,0.0
+English: Ronald | German: Reinhold | Dutch: Reinoud | Swedish: Ragnvald,Ræġnold,Rānhold,3,0.4286
+English: Gunn | Swedish: Gun,gūþ,Gunn,4,1.3333
+English: nut | German: Nuss | Dutch: noot | Swedish: nöt,hnutu,nūt,3,0.6
+English: unlust | German: Unlust | Dutch: onlust | Swedish: olust,unlust,unlust,0,0.0
+English: end | German: enden | Dutch: enden,endian,endan,1,0.1667
+English: thole | German: dolen | Swedish: tåla,þolian,þolian,0,0.0
+English: new | German: neuen | Dutch: nieuwen,nīewian,nēowan,3,0.4286
+English: forbid | German: verbieten | Dutch: verbieden | Swedish: f
+ rbjuda,forbēodan,forbēdan,1,0.1111
+English: stud | German: Stute | Dutch: stoet | Swedish: sto,stōd,st
+ d,0,0.0
+German: Granne | Dutch: graan | Swedish: gran,granu,grann,1,0.2
+English: rye | Swedish: råg,ryġe,rēag,3,0.75
+English: mazer | German: Maser | Dutch: maser | Swedish: masur,*mæser,masor,3,0.5
+English: bereave | German: berauben | Dutch: beroven,berēafian,berē
+afan,1,0.1111
+English: weir | German: wehren | Dutch: weren | Swedish: värja,werian,wǣran,2,0.3333
+English: warn | German: warnen | Dutch: waarnen | Swedish: varna,warnian,wearnian,1,0.1429
+English: wick | Dutch: wijk | Swedish: vik,wīc,wīc,0,0.0
+English: sound | German: gesund | Dutch: zond | Swedish: sund,*sund,sund,1,0.2
+English: bower | German: -büren | Swedish: bur,būr,byrian,4,1.3333
+English: beard | German: Bart | Dutch: baard | Swedish: bard,beard,beard,0,0.0
+English: sheep | German: Schaf | Dutch: schaap,sċēap,sċǣp,2,0.4
+English: ted | German: zetten,*teddan,teddan,1,0.1429
+English: nesh | Dutch: nes,hnæsċe,nesċ,3,0.5
+English: dearth | Dutch: duurte | Swedish: dyrd,*dīerþu,dyrþ,4,0.5714
+English: clump | German: Klumpen | Dutch: klomp | Swedish: klump,*clympe,clump,3,0.4286
+English: sie | German: seigen | Dutch: zijgen | Swedish: siga,sīgan,sīgan,0,0.0
+English: glass | German: Glas | Dutch: glas | Swedish: glas,glæs,glas,1,0.25
+English: stalk | Swedish: stjälk,*stealuc,stealc,2,0.25
+English: hot | German: heiß | Dutch: heet | Swedish: het,hāt,hāt,0,0.0
+English: hovel | German: Hof | Dutch: hof | Swedish: hov,hof,hof,0,0.0
+English: youngling | German: Jüngling | Dutch: jongeling | Swedish: yngling,ġeongling,yngling,3,0.3333
+English: long | German: gelangen | Dutch: langen | Swedish: långa,langian,langan,1,0.1429
+English: better | German: bessern | Dutch: beteren | Swedish: bättra,beterian,beterian,0,0.0
+English: cool | German: kühl | Dutch: koel,cōl,cōl,0,0.0
+English: twissel | German: Zwiesel,twisla,twisel,2,0.3333
+English: salve | German: Salbe | Dutch: zalf | Swedish: salva,sealf,sealf,0,0.0
+English: blade | German: Blatt | Dutch: blad | Swedish: blad,blæd,blæd,0,0.0
+English: shift | German: schichten | Dutch: schiften | Swedish: skifta,sċiftan,sċiftan,0,0.0
+English: begrave | German: begraben | Dutch: begraven | Swedish: begrava,begrafan,begrafan,0,0.0
+English: atter | German: eitern | Dutch: etteren,ǣtrian,eterian,2,0.3333
+English: let | German: lassen | Dutch: laten | Swedish: låta,lǣtan,lǣtan,0,0.0
+English: clap | German: klappen | Dutch: klappen | Swedish: klappa,*clappian,clappian,1,0.1111
+English: shaft | German: Schacht | Dutch: schacht | Swedish: schakt,sċeaft,sċaft,1,0.1667
+English: need | German: Not | Dutch: nood | Swedish: nöd,nīed,nēad,2,0.5
+English: Bernard | German: Bernard | Dutch: Bernaart,Beornheard,Beornard,2,0.2
+English: eek | German: auch | Dutch: ook | Swedish: och,ēac,ēac,0,0.0
+English: day | German: Tag | Dutch: dag | Swedish: dag,dæġ,dagu,3,1.0
+English: midday | German: Mittag | Dutch: middag | Swedish: middag,middæġ,middag,2,0.3333
+English: fell | German: Fell | Dutch: vel | Swedish: fjäll,fell,fell,0,0.0
+English: threshold | German: Drischaufel | Swedish: tröskel,þersċweald,þrysċel,5,0.5
+English: leer | Dutch: lier | Swedish: lyra,hlēor,lēor,1,0.2
+English: schmaltz | German: Schmalz | Dutch: smout,smolt,smealt,2,0.4
+English: forecome | German: vorkommen | Dutch: voorkomen,forecuman,forecoman,1,0.1111
+English: sound | German: Sund | Dutch: zond | Swedish: sund,sund,sund,0,0.0
+English: reif | German: Raub | Dutch: roof | Swedish: rov,rēaf,rēaf,0,0.0
+English: spare | German: sparen | Dutch: sparen | Swedish: spara,sparian,sparian,0,0.0
+English: deed | German: Tat | Dutch: daad | Swedish: dåd,dǣd,dǣd,0,0.0
+English: bismer | German: schmieren | Dutch: besmeren,smerian,bismeran,3,0.4286
+English: fathom | Dutch: vademen | Swedish: famna,fæþmian,fædeman,3,0.4286
+German: rauchen | Dutch: roken | Swedish: röka,rīeċan,rēacan,3,0.5
+English: churl | German: Kerl | Dutch: kerel | Swedish: karl,ċeorl,ceorl,1,0.2
+English: beckon | Dutch: bakenen,bēacnian,becnan,3,0.375
+English: in | German: innen | Dutch: innen,innian,innan,1,0.1667
+English: cheese | German: Käse | Dutch: kaas,ċīese,ċēas,3,0.6
+English: funk | German: Funke | Dutch: vonk,*funca,func,2,0.3333
+English: thong | German: Zwang | Dutch: dwang,þwang,þwang,0,0.0
+English: eye | German: Auge | Dutch: oog | Swedish: öga,ēage,ēaga,1,0.25
+English: stench | German: Stank | Dutch: stank | Swedish: stank,stenċ,stanc,2,0.4
+English: tell | German: zählen | Dutch: tellen | Swedish: tälja,tellan,tellan,0,0.0
+English: bight | German: Bucht | Dutch: bucht | Swedish: bukt,byht,biht,1,0.25
+German: lauter | Dutch: luiter,hlūtor,lūter,2,0.3333
+English: hest | German: Geheiß,hǣs,hāst,2,0.6667
+English: bee | German: Beie | Dutch: bij | Swedish: bi,bēo,bēa,1,0.3333
+English: grip | German: Griff | Dutch: grip,gripe,grip,1,0.2
+English: seam | German: Saum | Dutch: zoom | Swedish: söm,sēam,sēam,0,0.0
+English: gift | German: Gift | Dutch: gift | Swedish: gift,ġift,gift,1,0.25
+English: louse | German: Laus | Dutch: luis | Swedish: lus,lūs,lūs,0,0.0
+English: haaf | German: Haff | Dutch: haf | Swedish: hav,hæf,hæf,0,0.0
+English: bode | German: Bote | Dutch: bode,boda,boda,0,0.0
+English: light | German: Licht | Dutch: licht,lēoht,liht,2,0.4
+German: abenden | Dutch: avonden | Swedish: aftnas,ǣfnian,afondian,3,0.5
+English: ware | German: Ware | Dutch: waar | Swedish: vara,waru,wǣre,2,0.5
+English: soul | German: Seele | Dutch: ziel | Swedish: själ,sāwol,s
+ el,3,0.6
+German: Haube | Dutch: huif | Swedish: huva,hūfe,hūf,1,0.25
+English: ban | German: bannen | Dutch: bannen | Swedish: banna,bannan,bannian,1,0.1667
+Dutch: schieren | Swedish: skira,sċīran,sċīran,0,0.0
+English: etch | German: ätzen | Dutch: etten,ettan,ettan,0,0.0
+German: töten | Dutch: doden | Swedish: döda,dīedan,dydan,2,0.3333
+English: steal | German: stehlen | Dutch: stelen | Swedish: stjäla,stelan,stelan,0,0.0
+English: wake | German: wachen | Dutch: waken | Swedish: vaka,wacian,wacian,0,0.0
+German: bebinden | Dutch: bebinden,bebindan,bebindan,0,0.0
+English: hell | German: Helle | Dutch: hel | Swedish: ihjäl,hell,hell,0,0.0
+English: rise | German: reisen | Dutch: rijzen | Swedish: risa,rīsan,rīsan,0,0.0
+English: swallow | German: Schwalbe | Dutch: zwaluw | Swedish: svala,swealwe,swealf,2,0.2857
+English: snow-white | German: schneeweiß | Dutch: sneeuwwit,snāwhwī
+t,snēowwīt,3,0.375
+English: lake | German: Laken | Dutch: laken | Swedish: lakan,*lacen,lacian,3,0.5
+English: nave | German: Nabe | Dutch: naaf | Swedish: nav,nafu,nafu,0,0.0
+English: brede | German: breiten | Dutch: breden | Swedish: breda,brǣdan,brǣdan,0,0.0
+German: heute | Dutch: huidig,hēodæġ,hūd,4,0.6667
+English: babble | German: brabbeln | Dutch: babbelen | Swedish: babbla,*bablian,babblian,2,0.25
+English: writhe | German: reiden | Swedish: vrida,wrīþan,wrīþan,0,0.0
+English: ooze | Swedish: vesa,wāse,wǣsan,3,0.75
+German: Ingo | Swedish: Yngve,Ingwi,ġenġe,5,1.0
+English: shin | German: Schiene | Dutch: scheen | Swedish: skena,sċ
+inu,sċēon,3,0.6
+English: cost | German: Kust | Dutch: kust | Swedish: -kost,cost,cost,0,0.0
+English: red | German: rot | Dutch: rood | Swedish: röd,rēad,rēad,0,0.0
+English: chin | German: Kinn | Dutch: kin | Swedish: kind,ċinn,cind,2,0.5
+English: holt | German: Holz | Dutch: hout | Swedish: holt,holt,holt,0,0.0
+English: thole | German: Dolle | Dutch: dol | Swedish: tull,þol,þoll,1,0.3333
+English: drink | German: trinken | Dutch: drinken | Swedish: dricka,drincan,drincan,0,0.0
+English: yauld | Swedish: gild,*ġilde,ġield,3,0.5
+English: rudder | German: Ruder | Dutch: roer | Swedish: roder,rōþor,rōdor,1,0.2
+English: thring | German: dringen | Dutch: dringen,þringan,þringan,0,0.0
+English: barm | German: Barm | Swedish: barm,bearm,bearm,0,0.0
+English: neeze | German: niesen | Dutch: niezen | Swedish: nysa,*hn
+ osan,nēosan,2,0.25
+English: ort | Dutch: oort,*oreta,ort,3,0.5
+English: king | German: König | Dutch: koning | Swedish: konung,cyning,cynig,1,0.1667
+English: nookie | Dutch: neuken | Swedish: nycka,ġehnycned,nēacian,8,0.8889
+English: fatch | German: fassen | Dutch: vatten | Swedish: fatta,fatian,fættan,2,0.3333
+English: smith | German: Schmied | Dutch: smid | Swedish: smed,smiþ
+,smiþ,0,0.0
+English: weir | German: Wehr | Dutch: weer,wer,wǣr,1,0.3333
+English: hoarding | German: Horde | Dutch: horde,*hyrd,hord,2,0.4
+English: stitch meale | German: Stück | Dutch: stuk | Swedish: stycke,styċċe,styċċ,1,0.1667
+English: have | Swedish: hamn,hæfen,hafa,3,0.6
+English: note | German: Nutz,notu,nota,1,0.25
+German: Dienst | Dutch: dienst | Swedish: tjänst,*þēonost,þinst,4,0.5
+English: scrat | German: Schrätz | Swedish: skret,*scrætt,scrat,3,0.4286
+German: Einschnitt | Swedish: sned,snid,sniþ,1,0.25
+English: groove | German: Grube | Dutch: groeve,*grōf,grōf,1,0.2
+German: öde | Swedish: öde,īeþe,ēaþ,3,0.75
+English: ere | German: eher | Dutch: eer | Swedish: arla,ǣr,ere,2,1.0
+German: Bedarf | Swedish: tarv,þearf,tearf,1,0.2
+German: stöhnen | Dutch: stenen,stenan,stēnan,1,0.1667
+English: file | German: Feile | Dutch: vijl | Swedish: fil,fīil,fīl,1,0.25
+English: shine | German: scheinen | Dutch: schijnen | Swedish: skina,sċīnan,sċīnan,0,0.0
+English: sallow | German: sal | Dutch: zaluw,salu,sealu,1,0.25
+English: umgang | German: Umgang | Dutch: omgang | Swedish: omgång,ymbgang,umgang,2,0.2857
+English: with | German: Weid | Dutch: wede,wiþe,wīþ,2,0.5
+English: blike | German: bleichen | Dutch: blijken | Swedish: blika,blīcan,blīcan,0,0.0
+English: rake | Dutch: rake | Swedish: raka,racu,raca,1,0.25
+German: neigen | Dutch: neigen,hnǣġan,nǣgan,2,0.3333
+English: grass | German: Gras | Dutch: gras | Swedish: gräs,græs,gras,1,0.25
+English: stound | German: Stunde | Dutch: stond | Swedish: stund,stund,stund,0,0.0
+German: glau | Dutch: glouw,glēaw,glēaw,0,0.0
+English: live | German: leben | Dutch: leven | Swedish: leva,libban,lifan,2,0.3333
+German: gammelig | Dutch: gammel | Swedish: gammal,gamol,gamel,1,0.2
+English: scant | Swedish: skam,*sċamm,sċant,3,0.5
+English: bell | Dutch: bel | Swedish: bjällra,belle,bell,1,0.2
+English: -y | German: -en | Dutch: -en | Swedish: -a,-ian,-ian,0,0.0
+English: will | German: wollen | Dutch: willen | Swedish: vilja,willan,willan,0,0.0
+English: hart | German: Hirsch | Dutch: hert | Swedish: hjort,heorot,heort,1,0.1667
+English: answer | Swedish: ansvara,andswerian,answeoran,3,0.3
+English: deem | Dutch: doemen | Swedish: döma,dēman,dēman,0,0.0
+English: ride | German: reiten | Dutch: rijden | Swedish: rida,rīdan,hrīdan,1,0.2
+English: teen | Swedish: tyna,tēonian,tēnan,2,0.2857
+English: spurn | German: anspornen | Swedish: spjärna,spurnan,spornan,1,0.1429
+English: halse | Dutch: halzen | Swedish: halsa,*healsian,healsian,1,0.1111
+English: bear | German: gebären,ġeberan,bǣran,3,0.4286
+English: bang | German: bangen | Dutch: bonken | Swedish: banka,*bangian,bangan,2,0.25
+English: clock | German: klucken | Dutch: klokken | Swedish: klucka,cloccian,cloccian,0,0.0
+English: sell | German: sellen | Dutch: sellen | Swedish: sälja,sellan,sellan,0,0.0
+English: tall | German: gezahl,*tæl,teall,4,1.0
+English: axe | German: Axt | Dutch: aks | Swedish: yxa,æx,axa,2,1.0
+German: hinken | Dutch: hinken,hincian,hincan,1,0.1429
+English: gilden | German: gülden | Dutch: gouden | Swedish: gyllene,gylden,gyldan,1,0.1667
+English: send | German: senden | Dutch: zenden | Swedish: sända,sendan,sendan,0,0.0
+English: royd | Swedish: rud,rodu,rūd,2,0.5
+English: dwarf | German: Zwerg | Dutch: dwerg | Swedish: dvärg,dweorg,dweorg,0,0.0
+English: leek | German: Lauch | Dutch: look | Swedish: lök,lēac,lēac,0,0.0
+English: rock | German: rocken | Dutch: rokken | Swedish: rucka,roccian,roccian,0,0.0
+English: hail | German: hageln | Dutch: hagelen | Swedish: hagla,hagalian,haġlian,2,0.25
+English: glede | Dutch: glee | Swedish: glada,glida,glǣde,2,0.4
+English: right | German: recht | Dutch: recht,riht,riht,0,0.0
+English: motherless | German: mutterlos | Dutch: moederloos | Swedish: moderlös,mōdorlēas,mōþerlēas,2,0.2222
+English: yoke | German: Joch | Dutch: juk | Swedish: ok,ġeoc,ēac,3,0.75
+English: bread | German: Brot | Dutch: brood | Swedish: bröd,brēad,brēad,0,0.0
+English: shaw | German: Schache | Swedish: skog,sċeaga,sċeawu,2,0.3333
+English: finger | German: Finger | Dutch: vinger | Swedish: finger,finger,finger,0,0.0
+English: Yule | German: Jul | Dutch: joel | Swedish: jul,ġēol,ēol,1,0.25
+English: witch | German: wicken | Dutch: wikken,wiċċian,wiċċan,1,0.1429
+English: wizen | Swedish: vissna,wisnian,wisnan,1,0.1429
+English: wax | German: Wachs | Dutch: was | Swedish: vax,weax,wax,1,0.25
+English: summer | German: Sommer | Dutch: zomer | Swedish: sommar,sumor,sumor,0,0.0
+English: sixth | German: sechste | Dutch: zesde | Swedish: sjätte,sixta,sīþ,4,0.8
+English: shand | German: Schande | Dutch: schande,sċand,sċand,0,0.0
+English: blood-red | German: blutrot | Dutch: bloedrood | Swedish: blodröd,blōdrēad,blōdrōd,2,0.25
+English: week | German: Woche | Dutch: week | Swedish: vecka,wiċe,w
+ c,3,0.75
+English: kemb | German: kämmen | Dutch: kemmen | Swedish: kämma,cemban,cemban,0,0.0
+English: loof | Swedish: love,lōf,lēaf,2,0.6667
+English: sain | German: segnen | Dutch: zegenen,segnian,seġnan,2,0.2857
+English: sick | German: siech | Dutch: sick | Swedish: sjuk,sēoc,sicc,2,0.5
+English: tale | German: Zahl | Dutch: taal | Swedish: tala,talu,talu,0,0.0
+English: eke | Dutch: oken | Swedish: öka,ēacan,ecian,3,0.6
+English: shy | German: scheu | Dutch: scheu | Swedish: skygg,sċēoh,sċīe,3,0.6
+English: worse | German: wirs | Dutch: wers | Swedish: värre,wiers,weors,2,0.4
+German: bergen | Dutch: bergen | Swedish: bärga,beorgan,beorgan,0,0.0
+English: wedge | German: Wecke | Dutch: weg,weċġ,wedge,3,0.75
+English: wald | Swedish: våld,weald,weald,0,0.0
+English: leasing | German: Lösung | Dutch: lozing,lēasung,lēasing,1,0.1429
+English: tread | German: treten | Dutch: treden | Swedish: träda,tredan,trǣdan,1,0.1667
+English: stall | German: Stall | Dutch: stal | Swedish: stall,steall,steall,0,0.0
+English: mote | German: müssen | Dutch: moeten | Swedish: måste,mōtan,mōtan,0,0.0
+English: race | Dutch: raes | Swedish: race,rǣs,rǣc,1,0.3333
+German: Wahre | Dutch: waar,wǣr,wǣr,0,0.0
+English: deathday | German: Todestag | Swedish: dödsdag,dēaþdæġ,dēa
+ dæġ,0,0.0
+English: better | German: besser | Dutch: beter | Swedish: bättre,betera,beter,1,0.1667
+English: tame | German: zähmen | Dutch: temmen | Swedish: tämja,temian,temman,1,0.1667
+English: underking | German: Unterkönig | Dutch: onderkoning | Swedish: underkung,undercyning,undercynig,1,0.0909
+English: beach | German: -beck | Dutch: beek | Swedish: bäck,bæċ,bǣ
+c,2,0.6667
+English: floor | German: Flur | Dutch: vloer | Swedish: flo,flōr,fl
+ r,0,0.0
+English: sloe | German: Schlehe | Dutch: slee | Swedish: slån,slā,slēa,2,0.6667
+English: winter | German: Winter | Dutch: winter | Swedish: vinter,winter,winter,0,0.0
+English: tale | German: zahlen | Dutch: talen | Swedish: tala,talian,talian,0,0.0
+English: token | German: Zeichen | Dutch: teken | Swedish: tecken,t
+ cn,tācan,1,0.25
+German: nutzen | Swedish: nyttja,nyttian,nyttan,1,0.1429
+English: Dane | German: Däne | Dutch: Deen | Swedish: dan,Dene,dana,3,0.75
+English: fleet | German: fließen | Dutch: vlieten | Swedish: flyta,flēotan,flēotan,0,0.0
+English: endware | German: -er | Dutch: -er | Swedish: -are,-ware,-ere,2,0.4
+English: few | Swedish: få,fēaw,fǣw,2,0.5
+English: gythja | Swedish: gydja,Gydda,gyþþan,4,0.8
+English: eand | German: Ahnd | Swedish: ande,anda,eand,2,0.5
+English: iland | German: Eiland | Dutch: eiland | Swedish: Öland,ēaland,īland,2,0.3333
+English: ready | German: bereit | Dutch: reeds | Swedish: redo,rǣde,rǣd,1,0.25
+German: wehen | Dutch: waaien,wāwan,wǣian,2,0.4
+English: niggard | German: genau | Dutch: nauw | Swedish: njugg,hnē
+aw,nēaw,1,0.2
+English: bear | German: Bär | Dutch: beer,bera,bǣr,2,0.5
+English: wind | German: Wind | Dutch: wind | Swedish: vind,wind,wind,0,0.0
+"English: lane | Dutch: laan | Swedish: lana, lan",lanu,lana,1,0.25
+German: Leichnam | Dutch: lichaam | Swedish: lekamen,līchama,līecam,3,0.4286
+English: youth | German: Jugend | Dutch: jeugd,ġeoguþ,ēaþ,5,0.8333
+English: eam | German: Oheim | Dutch: oom,ēam,ām,2,0.6667
+English: hand | German: Hand | Dutch: hand | Swedish: hand,hand,hand,0,0.0
+English: waken | Swedish: vakna,wæcnan,wacian,2,0.3333
+English: staple | German: Stapel | Dutch: stapel | Swedish: stapel,stapol,stapel,1,0.1667
+German: antworten | Dutch: antwoorden,andwirdan,antwyrdan,2,0.2222
+English: wring | German: wringen | Dutch: wringen,wringan,wringan,0,0.0
+German: Sitte | Dutch: zede | Swedish: sed,sidu,siþ,2,0.5
+German: Kiel | Dutch: tjalk,ċēol,tēalc,3,0.75
+English: nettle | German: Nessel | Dutch: netel | Swedish: nässla,netele,netel,1,0.1667
+English: rust | German: Rost | Dutch: roest | Swedish: rost,rust,rō
+st,1,0.25
+English: belt | German: Balz | Dutch: balts | Swedish: bälte,belt,belt,0,0.0
+English: dock | German: Docke | Dutch: dok | Swedish: docka,*docce,docc,2,0.3333
